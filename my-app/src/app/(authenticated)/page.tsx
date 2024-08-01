@@ -10,8 +10,8 @@ export default function Home() {
           <div>
             <img src="logoBlack.png" alt="logo_image" className="h-[200px] w-full cursor-pointer"/>
           </div>
-          <Link href="/mainPage" className="flex justify-center items-center h-[50px] w-[120px] text-white border rounded-sm 
-          cursor-pointer">
+          <Link href="/mainPage" className="flex justify-center items-center h-[50px] w-[120px] text-white hover:text-black border
+          hover:border-black rounded-sm cursor-pointer">
             Go In
           </Link>
         </div>

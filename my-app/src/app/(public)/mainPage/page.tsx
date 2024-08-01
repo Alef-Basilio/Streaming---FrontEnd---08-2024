@@ -1,13 +1,11 @@
-'use client';
-
-import { useRouter } from 'next/navigation';
+import Navbar from "../../components/Navbar";
+import Slide from "../../components/Slide";
 
 export default function MainPage() {
-    const router = useRouter()
-
     return (
         <>
-            <button onClick={(e) => { router.push('/'); e.preventDefault()}}>page1</button>
+            <Navbar/>
+            <Slide/>
         </>
     )
 }
