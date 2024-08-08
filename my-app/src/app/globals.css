@@ -9,5 +9,5 @@
 }
 
 body {
-    background-color: #222;
+    background: linear-gradient(13deg, rgba(41,41,41,1) 0%, rgba(0,0,0,1) 100%);
 }

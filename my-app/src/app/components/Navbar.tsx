@@ -4,17 +4,20 @@ export default function Navbar() {
             <header>
                 <nav>
                     <ul className="flex justify-center">
-                        <li className="flex justify-between items-center w-[1000px] bg-purple-500 text-white gap-14">
-                            <div className="flex justify-center w-[20%]">
-                                <img src="logoBlack.png" alt="logo_image" className="h-full w-[70px] cursor-pointer"/>
+                        <li className="flex justify-evenly items-center xl:h-[70px] mm:h-[60px] xl:w-[1250px] 
+                        lg:w-[1000px] sm:w-[90%] mm:w-[100%] bg-gradient-to-r from-fuchsia-600 to-purple-600 
+                        text-white">
+                            <div className="sm:flex justify-center items-center xl:w-[20%] sm:w-[15%] mm:hidden">
+                                <img src="logoBlack.png" alt="logo_image" className="mm:h-full xl:w-[70px] sm:w-[60px]
+                                cursor-pointer"/>
                             </div>
-                            <div className="flex w-[80%] gap-[10%]">
-                                <a href="" className="hover:text-black">Home</a>
-                                <a href="" className="hover:text-black">Search</a>
-                                <a href="" className="hover:text-black">Watchlist</a>
-                                <a href="" className="hover:text-black">Movies</a>
-                                <a href="" className="hover:text-black">Series</a>
-                                <a href="/" className="hover:text-black">Go Out</a>
+                            <div className="flex justify-around items-center xl:w-[80%] sm:w-[85%] mm:w-[100%]">
+                                <a href="" className="hover:text-[#222] xl:text-[17px] mm:text-[15px]">Home</a>
+                                <a href="" className="hover:text-[#222] xl:text-[17px] mm:text-[15px]">Search</a>
+                                <a href="" className="hover:text-[#222] xl:text-[17px] mm:text-[15px]">Watchlist</a>
+                                <a href="" className="hover:text-[#222] xl:text-[17px] mm:text-[15px]">Movies</a>
+                                <a href="" className="hover:text-[#222] xl:text-[17px] mm:text-[15px]">Series</a>
+                                <a href="/" className="hover:text-[#222] xl:text-[17px] mm:text-[15px]">Go Out</a>
                             </div>
                         </li>
                     </ul>

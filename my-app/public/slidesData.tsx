@@ -1,5 +1,5 @@
 const slidesInfo: {title: string, caption: string | null, desc: string}[]  = [
-    {title: "1917", caption: null, desc: "Summaries. April 6th, 1917. As an infantry battalion assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap."},
+    {title: "1917", caption: null, desc: "April 6th, 1917. As an infantry battalion assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap."},
     {title: "Captain America", caption: "The Winter Soldier", desc: "As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier."},
     {title: "Fantastic Beasts", caption: "and Where To Find Them", desc: "In 1926, magizoologist Newt Scamander arrives in New York during his worldwide tour to research and rescue magical creatures as something mysterious leaves trails of destruction in the city, threatening to expose the wizarding world."},
     {title: "Hereditary", caption: null, desc: "A grieving family is haunted by tragic and disturbing occurrences."},

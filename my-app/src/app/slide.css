@@ -1,3 +1,55 @@
 .swiper {
-    --swiper-navigation-color: purple;
+    --swiper-navigation-color: #F600CE;
+}
+
+.swiper:active {
+    --swiper-navigation-color: #8E24AA;
+}
+
+@media (min-width: 320px) and (max-width: 479.99px) {
+    img {
+        width: 125px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 639.99px) {
+    img {
+        width: 190px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 799.99px) {
+    img {
+        width: 205px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1023.99px) {
+    img {
+        width: 220px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280.99px) {
+    img {
+        width: 310px;
+        margin-left: 13px;
+        margin-right: 13px;
+    }
+}
+
+@media (min-width: 1280px) {
+    img {
+        width: 340px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
 }

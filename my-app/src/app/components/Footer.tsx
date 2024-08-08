@@ -1,35 +1,41 @@
 export default function Footer() {
     return (
-        <footer className="flex justify-center items-center h-[300px] w-full bg-black text-white">
-            <div className="flex justify-between gap-12 w-[1000px]">
-                <div className="flex flex-col w-[25%]">
-                    <h2 className="font-bold mb-6">Resources</h2>
-                    <a href="">Application</a>
-                    <a href="">Documentation</a>
-                    <a href="">Systema</a>
-                    <a href="">FAQ</a>
+        <footer className="flex justify-center h-fit w-full bg-black text-white sm:pt-12 sm:pb-12
+        mm:pt-10 mm:pb-10">
+            <div className="mm:flex sm:flex-row mm:flex-col justify-between xl:w-[1250px] lg:w-[1000px] mm:w-[90%] 
+            sm:gap-0 mm:gap-8">
+                <div className="flex sm:justify-around mm:justify-evenly sm:w-[50%] mm:w-[100%]">
+                    <div className="flex flex-col w-[25%] gap-[2px]">
+                        <h2 className="font-bold xl:text-[17px] mm:text-[15px] sm:mb-6 mm:mb-2">Resources</h2>
+                        <a href="xl:text-[17px] mm:text-[15px]">Application</a>
+                        <a href="xl:text-[17px] mm:text-[15px]">Documentation</a>
+                        <a href="xl:text-[17px] mm:text-[15px]">Systema</a>
+                        <a href="xl:text-[17px] mm:text-[15px]">FAQ</a>
+                    </div>
+                    <div className="flex flex-col w-[25%] gap-[2px]">
+                        <h2 className="font-bold xl:text-[17px] mm:text-[15px] sm:mb-6 mm:mb-2">Pricing</h2>
+                        <a href="xl:text-[17px] mm:text-[15px]">Overview</a>
+                        <a href="xl:text-[17px] mm:text-[15px]">Premium Plans</a>
+                        <a href="xl:text-[17px] mm:text-[15px]">Affiliate Program</a>
+                        <a href="xl:text-[17px] mm:text-[15px]">Promotions</a>
+                    </div>
                 </div>
-                <div className="flex flex-col w-[25%]">
-                    <h2 className="font-bold mb-6">Pricing</h2>
-                    <a href="">Overview</a>
-                    <a href="">Premium Plans</a>
-                    <a href="">Affiliate Program</a>
-                    <a href="">Promotions</a>
-                </div>
-                <div className="flex flex-col w-[25%]">
-                    <h2 className="font-bold mb-6">Company</h2>
-                    <a href="">About Us</a>
-                    <a href="">Blog</a>
-                    <a href="">Partnerships</a>
-                    <a href="">Careers</a>
-                    <a href="">Press</a>
-                </div>
-                <div className="flex flex-col w-[25%]">
-                    <h2 className="font-bold mb-6">Social</h2>
-                    <a href="">Facebook</a>
-                    <a href="">Twitter</a>
-                    <a href="">Instagram</a>
-                    <a href="">LinkedIn</a>
+                <div className="flex sm:justify-around mm:justify-evenly sm:w-[50%] mm:w-[100%]">
+                    <div className="flex flex-col w-[25%] gap-[2px]">
+                        <h2 className="font-bold xl:text-[17px] mm:text-[15px] sm:mb-6 mm:mb-2">Company</h2>
+                        <a href="xl:text-[17px] mm:text-[15px]">About Us</a>
+                        <a href="xl:text-[17px] mm:text-[15px]">Blog</a>
+                        <a href="xl:text-[17px] mm:text-[15px]">Partnerships</a>
+                        <a href="xl:text-[17px] mm:text-[15px]">Careers</a>
+                        <a href="xl:text-[17px] mm:text-[15px]">Press</a>
+                    </div>
+                    <div className="flex flex-col w-[25%] gap-[2px]">
+                        <h2 className="font-bold xl:text-[17px] mm:text-[15px] sm:mb-6 mm:mb-2">Social</h2>
+                        <a href="xl:text-[17px] mm:text-[15px]">Facebook</a>
+                        <a href="xl:text-[17px] mm:text-[15px]">Twitter</a>
+                        <a href="xl:text-[17px] mm:text-[15px]">Instagram</a>
+                        <a href="xl:text-[17px] mm:text-[15px]">LinkedIn</a>
+                    </div>
                 </div>
             </div>
         </footer>
