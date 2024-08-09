@@ -9,7 +9,7 @@ export default function Card({title, caption, desc}: {title: string, caption: st
                 <div className="flex flex-col justify-center items-center mm:mb-1">
                     <div className="flex justify-end w-full">
                         <span onClick={() => closeCard()} className="flex justify-center items-center sm:h-[45px] 
-                        mm:h-[40px] sm:w-[45px] mm:w-[40px] sm:text-[30px] mm:text-[25px] text-[#222] 
+                        mm:h-[40px] sm:w-[45px] mm:w-[40px] sm:text-[30px] mm:text-[25px] text-tertiary 
                         hover:bg-secondary font-bold rounded-full cursor-pointer">X</span>
                     </div>
                     <h1 className="cardTitle sm:text-[30px] mm:text-[22px] font-bold">{title}</h1>
@@ -24,7 +24,9 @@ export default function Card({title, caption, desc}: {title: string, caption: st
                 <div className="flex sm:justify-end mm:justify-center w-full">
                     <a href="" className="flex justify-center items-center h-[50px] w-[100px] xl:text-[17px] 
                     mm:text-[15px] hover:bg-secondary font-bold rounded-full cursor-pointer
-                    animate-pulse">Watch Now</a>
+                    animate-pulse">
+                    Watch Now
+                    </a>
                 </div>
             </div>
         </div>

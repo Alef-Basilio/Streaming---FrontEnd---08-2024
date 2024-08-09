@@ -3,7 +3,7 @@
 }
 
 .swiper:active {
-    --swiper-navigation-color: #8E24AA;
+    --swiper-navigation-color: #4A148C;
 }
 
 @media (min-width: 320px) and (max-width: 359.99px) {

@@ -16,6 +16,12 @@ const config: Config = {
       backgroundColor: {
         primary: "#F600CE",
         secondary: "#8E24AA",
+        active: "#4A148C",
+      },
+      textColor: {
+        tertiary: "#222",
+      },
+      borderColor: {
         tertiary: "#222",
       },
       screens: {

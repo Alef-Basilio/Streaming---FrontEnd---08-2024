@@ -12,8 +12,8 @@ export default function Home() {
             <img src="logoBlack.png" alt="logo_image" className="h-[200px] w-full cursor-pointer"/>
           </div>
           <Link href="/mainPage" className="flex justify-center items-center sm:h-[50px] mm:h-[40px] sm:w-[120px]
-          mm:w-[100px] text-white hover:text-[#222] hover:bg-secondary active:bg-purple-900 border 
-          hover:border-[#222] rounded-sm cursor-pointer">
+          mm:w-[100px] text-white hover:text-tertiary hover:bg-secondary active:bg-active border 
+          hover:border-tertiary rounded-sm cursor-pointer">
           Go In
           </Link>
         </div>

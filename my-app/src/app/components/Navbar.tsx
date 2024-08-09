@@ -12,14 +12,14 @@ export default function Navbar() {
                                 cursor-pointer"/>
                             </div>
                             <div className="flex justify-around items-center xl:w-[80%] sm:w-[85%] mm:w-[100%]">
-                                <a href="" className="hover:text-[#222] xl:text-[17px] mm:text-[15px] p-1">Home</a>
-                                <a href="" className="hover:text-[#222] xl:text-[17px] mm:text-[15px] p-1">Search</a>
-                                <a href="" className="sm:flex mm:hidden hover:text-[#222] xl:text-[17px] mm:text-[15px] 
+                                <a href="" className="hover:text-tertiary xl:text-[17px] mm:text-[15px] p-1">Home</a>
+                                <a href="" className="hover:text-tertiary xl:text-[17px] mm:text-[15px] p-1">Search</a>
+                                <a href="" className="sm:flex mm:hidden hover:text-tertiary xl:text-[17px] mm:text-[15px] 
                                 p-1">
                                 Watchlist
                                 </a>
-                                <a href="" className="hover:text-[#222] xl:text-[17px] mm:text-[15px] p-1">Movies</a>
-                                <a href="" className="hover:text-[#222] xl:text-[17px] mm:text-[15px] p-1">Series</a>
+                                <a href="" className="hover:text-tertiary xl:text-[17px] mm:text-[15px] p-1">Movies</a>
+                                <a href="" className="hover:text-tertiary xl:text-[17px] mm:text-[15px] p-1">Series</a>
                                 <a href="/" className="hover:text-red-700 xl:text-[17px] mm:text-[15px] border 
                                 rounded-full border-transparent hover:border-red-500 p-1">Go Out</a>
                             </div>
