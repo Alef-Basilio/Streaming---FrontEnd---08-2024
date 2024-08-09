@@ -58,9 +58,10 @@ export default function Slide() {
       }, [slidesData]);
 
     return (
-        <section className="flex flex-col justify-center items-center w-full text-white mb-12">
-            <h1 className="xl:w-[1250px] lg:w-[1000px] mm:w-[90%] text-[25px] font-bold mb-3">
-            Click to see the information:</h1>
+        <section className="flex flex-col justify-center items-center w-full text-white md:mb-12 sm:mb-24 mm:mb-48">
+            <h1 className="xl:w-[1250px] lg:w-[1000px] mm:w-[90%] md:text-[25px] mm:text-[20px] font-bold sm:mb-3 mm:mb-6">
+            Click to see the information:
+            </h1>
             <Swiper slidesPerView={slidesPerView} navigation className="lg:h-[210px] mm:h-[230px] xl:w-[1250px] 
             lg:w-[1000px] mm:w-[90%]">
                 <SwiperSlide>

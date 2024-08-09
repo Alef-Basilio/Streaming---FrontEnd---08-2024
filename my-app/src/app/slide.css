@@ -6,11 +6,27 @@
     --swiper-navigation-color: #8E24AA;
 }
 
-@media (min-width: 320px) and (max-width: 479.99px) {
+@media (min-width: 320px) and (max-width: 359.99px) {
     img {
         width: 125px;
         margin-left: 6px;
         margin-right: 6px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 419.99px) {
+    img {
+        width: 140px;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+}
+
+@media (min-width: 420px) and (max-width: 479.99px) {
+    img {
+        width: 165px;
+        margin-left: 8px;
+        margin-right: 8px;
     }
 }
 

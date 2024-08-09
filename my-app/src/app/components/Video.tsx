@@ -1,7 +1,8 @@
 export default function Video() {
     return (
-        <section className="flex justify-center items-center xl:mt-6 xl:mb-2 mm:mt-12 mm:mb-8">
-            <video autoPlay controls loop muted src="../video.mp4" className="xl:w-[1250px] lg:w-[1000px] mm:w-[90%]">
+        <section className="flex justify-center items-center xl:mt-6 xl:mb-2 mm:mt-12 mm:mb-12 cursor-pointer">
+            <video autoPlay controls loop muted src="../video.mp4" className="xl:w-[1250px] lg:w-[1000px] 
+            mm:w-[90%]">
             </video>
         </section>
     )
