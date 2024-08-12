@@ -12,20 +12,25 @@ export default function Card({title, caption, desc}: {title: string, caption: st
                         mm:h-[40px] sm:w-[45px] mm:w-[40px] sm:text-[30px] mm:text-[25px] text-tertiary 
                         hover:bg-secondary font-bold rounded-full cursor-pointer">X</span>
                     </div>
-                    <h1 className="cardTitle sm:text-[30px] mm:text-[22px] font-bold">{title}</h1>
-                    <h2 className="cardCaption sm:text-[22px] mm:text-[18px] mm:mb-1">{caption}</h2>
+                    <h1 className="cardTitle sm:text-[30px] mm:text-[22px] font-bold">
+                        {title}
+                    </h1>
+                    <h2 className="cardCaption sm:text-[22px] mm:text-[18px] mm:mb-1">
+                        {caption}
+                    </h2>
                 </div>
-                <div className="flex lg:flex-row mm:flex-col lg:justify-evenly mm:items-center w-full gap-4 lg: mm:mb-4">
+                <div className="flex lg:flex-row mm:flex-col lg:justify-evenly mm:items-center w-full gap-4 mm:mb-4">
                     <img src="" alt="" className="cardImage lg:h-fit sm:h-[250px] lg:w-[30%] md:w-[500px] sm:w-full 
                     mm:w-[90%] mm:mb-1"/>
                     <span className="cardDesc flex justify-center sm:w-full mm:w-[90%] xl:text-[17px] 
-                    mm:text-[15px]">{desc}</span>
+                    mm:text-[15px]">
+                        {desc}
+                    </span>
                 </div>
                 <div className="flex sm:justify-end mm:justify-center w-full">
                     <a href="" className="flex justify-center items-center h-[50px] w-[100px] xl:text-[17px] 
-                    mm:text-[15px] hover:bg-secondary font-bold rounded-full cursor-pointer
-                    animate-pulse">
-                    Watch Now
+                    mm:text-[15px] hover:bg-secondary font-bold rounded-full cursor-pointer animate-pulse">
+                        Watch Now
                     </a>
                 </div>
             </div>
