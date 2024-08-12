@@ -1,8 +1,16 @@
 "use client";
 
-const button = window.document.getElementsByClassName("scrollToTop");
+import { useEffect } from "react";
 
 export default function ButtonToTop() {
+    useEffect(() => {
+        function buttonShow() {
+          const button = document.getElementsByClassName("scrollToTop")[0];
+          window.scrollY > 80 ? button.classList.remove("hidden") : button.classList.add("hidden");
+        }
+        setInterval(buttonShow, 1000);
+      }, []);
+
     return (
         <div className="scrollToTop hidden z-50 fixed bottom-7 right-10">
             <div onClick={() => scrollTo(0, 0)} className="flex justify-center items-center md:h-[65px] 
@@ -16,9 +24,3 @@ export default function ButtonToTop() {
         </div>
     )
 }
-
-function buttonShow() {
-    window.scrollY > 80 ? button[0].classList.remove("hidden") : button[0].classList.add("hidden");
-}
-
-setInterval(buttonShow, 1000);
