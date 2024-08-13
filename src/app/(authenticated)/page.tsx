@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-export default function Home() {
+export default function Home(): JSX.Element {
   return (
     <nav className="flex justify-center items-center h-screen">
       <div className="flex flex-col justify-center items-center sm:h-[330px] mm:h-[300px] sm:w-[300px] 

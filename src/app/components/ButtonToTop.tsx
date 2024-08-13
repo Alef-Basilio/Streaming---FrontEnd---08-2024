@@ -2,9 +2,9 @@
 
 import { useEffect } from "react";
 
-export default function ButtonToTop() {
+export default function ButtonToTop(): JSX.Element {
     useEffect(() => {
-        function buttonShow() {
+        function buttonShow(): void {
           const button = document.getElementsByClassName("scrollToTop")[0];
           window.scrollY > 80 ? button.classList.remove("hidden") : button.classList.add("hidden");
         }

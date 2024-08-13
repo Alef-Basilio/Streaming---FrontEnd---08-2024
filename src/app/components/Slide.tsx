@@ -15,14 +15,18 @@ import "swiper/css/scrollbar";
 
 import "../slide.css";
 
-var cardImgDirection = slidesData.slidesY;
+interface CardImgProps {
+    url: string;
+}
 
-export default function Slide() {
+var cardImgDirection: CardImgProps[] = slidesData.slidesY;
+
+export default function Slide(): JSX.Element {
     const [slides, setSlides] = useState(slidesData.slidesX);
     const [slidesPerView, setSlidesPerView] = useState(3);
 
     useEffect(() => {
-        const handleResize = () => {
+        const handleResize = (): void => {
             if (window.innerWidth < 640) {
                 setSlides(slidesData.slidesY);
                 setSlidesPerView(2);
@@ -104,12 +108,12 @@ export default function Slide() {
     )
 }
 
-function handleClick(num: number) {
-    const card = document.getElementsByClassName("card")[0];
-    const cardTitle = document.getElementsByClassName("cardTitle")[0];
-    const cardCaption = document.getElementsByClassName("cardCaption")[0];
-    const cardImage = document.getElementsByClassName("cardImage")[0];
-    const cardDesc = document.getElementsByClassName("cardDesc")[0];
+function handleClick(num: number): void {
+    const card: Element = document.getElementsByClassName("card")[0];
+    const cardTitle: Element = document.getElementsByClassName("cardTitle")[0];
+    const cardCaption: Element = document.getElementsByClassName("cardCaption")[0];
+    const cardImage: Element = document.getElementsByClassName("cardImage")[0];
+    const cardDesc: Element = document.getElementsByClassName("cardDesc")[0];
 
     cardTitle.textContent = slidesData.slidesInfo[num].title;
     cardCaption.textContent = slidesData.slidesInfo[num].caption;

@@ -1,4 +1,4 @@
-export default function Navbar() {
+export default function Navbar(): JSX.Element {
     return (
         <header>
             <nav>

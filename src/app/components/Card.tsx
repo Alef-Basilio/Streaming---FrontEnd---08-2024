@@ -1,6 +1,6 @@
 "use client";
 
-export default function Card({title, caption, desc}: {title: string, caption: string | null, desc: string}) {
+export default function Card({title, caption, desc}: {title: string, caption: string | null, desc: string}): JSX.Element {
     return (
         <div className="card z-[100] hidden justify-center items-center fixed top-0 left-0 h-screen w-screen 
         text-white bg-black bg-opacity-60">
@@ -38,8 +38,8 @@ export default function Card({title, caption, desc}: {title: string, caption: st
     )
 }
 
-function closeCard() {
-    const card = document.getElementsByClassName("card")[0];
+function closeCard(): void {
+    const card: Element = document.getElementsByClassName("card")[0];
     card.classList.toggle("hidden");
     card.classList.toggle("flex");
 }

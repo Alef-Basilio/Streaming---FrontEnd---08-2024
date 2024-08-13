@@ -5,7 +5,7 @@ import Footer from "../../components/Footer";
 import ButtonToTop from "../../components/ButtonToTop";
 import Card from "../../components/Card";
 
-export default function MainPage() {
+export default function MainPage(): JSX.Element {
     return (
         <>
             <Navbar/>
