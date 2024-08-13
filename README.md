@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h2 align="center">Deploy link:</h2>
 
-## Getting Started
+@[PPTV](https://streaming-frontend-zeta.vercel.app/)
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+https://streaming-frontend-zeta.vercel.app/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<h1 align="center" style="color: #805ad5; font-weight: bold;">PPTV</h1>
+<p align="center">
+Topics: 
+<a href="#tech">Technolgies</a> |
+<a href="#how">How was made</a> |
+<a href="#obj">Objective</a>
+</p>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+<p align="center">
+<b>A streaming where the user can browse the home page and see the movies.</b>
+</p>
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<p align="center">
+  <p align="center">
+    <img src="./public/interface.jpg" width="100%">
+  </p>
+</p>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+<h2 id="tech" align="center">Technologies</h2>
+Next.js, React, TS, Tailwind CSS and CSS.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### LIB:
+Swiper.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+<h2 id="how" align="center">How was made</h2>
+Using streaming service templates, I built a responsive interface with popular front-end technologies.
+</br>
+The presentation of the slide images continues to fill the user's screen in order to avoid distortions and empty spaces.
+
+
+<h2 id="obj" align="center">Objective</h2>
+Understand how to create a streaming interface mainly with Next.js, TypeScript and Tailwind CSS.
