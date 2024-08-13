@@ -42,4 +42,4 @@ The presentation of the slide images continues to fill the user's screen in orde
 
 
 <h2 id="obj" align="center">Objective</h2>
-Understand how to create a streaming interface mainly with Next.js and TypeScript.
+Understand how to create a streaming interface mainly with Next.js, TypeScript and Tailwind CSS.
