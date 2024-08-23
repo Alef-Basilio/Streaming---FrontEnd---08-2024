@@ -29,7 +29,7 @@ Topics:
 
 
 <h2 id="tech" align="center">Technologies</h2>
-Next.js, React, TS, Tailwind CSS and CSS.
+Next.js, React, TypeScript, Tailwind CSS and CSS.
 
 ### Library:
 Swiper.
